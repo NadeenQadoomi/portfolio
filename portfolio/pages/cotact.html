@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice Website</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <script src="https://kit.fontawesome.com/e61ba0b5d3.js" crossorigin="anonymous"></script>
+    <style>
+   
+        .info div {
+            margin-bottom: 30px;
+            width: 300px;
+        }
+        .info div span {
+            font-weight: bold;
+        }
+        form input,
+        form textarea,
+        form button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            width: 200px;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        .dd{
+            display: flex;
+            flex-direction: row;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .info div i:hover{
+            color: #0056b3;
+
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="he" >
+            <a href="../pages/home.html"><img class="img1" src="../images/logocode1-removebg-preview.png" alt="logo" ></a> 
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-item"> <a href="../pages/home.html">Home</a></li>
+                    <li class="nav-item"> <a href="../pages/about.html">About</a></li>
+                    <li class="nav-item"> <a href="../pages/Resume.html"> Resume</a></li>
+                    <li class="nav-item"><a href="../pages/certificates.html">Certificates</a></li>
+                    <li class="nav-item"><a href="../pages/portfolio.html">Protfolio</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <ul class="main-actions">
+            <li> <a href="https://www.facebook.com/profile.php?id=100012316723325&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a> </li>
+            <li> <a href="https://www.instagram.com/nadeen_qadomi?igsh=MTVwc2huNzZxcmpkeg=="><i class="fa-brands fa-instagram"></i></a></li>
+            <li> <a href="https://www.linkedin.com/in/nadeen-qadoomi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        </header>
+            <h1  style="text-align: center ;">Contact</h1>
+     <div class="dd">
+            <div class="info">
+                <div>
+                   <i class="fa-solid fa-location-dot"></i> &nbsp;<span>Address:</span> <br> Jordan,Amman
+                </div>
+                <div>
+                    <i class="fa-duotone fa-solid fa-phone"></i> &nbsp; <span>Call Us:</span> <br> +962796411533
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>&nbsp; &nbsp;<span>Email Us:</span> <br> nadeenqadoomi11@gmail.com
+                </div>
+            </div>
+            <form class="actions"  action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </main>
+</body> 
+</html>
+           
